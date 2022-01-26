@@ -1,0 +1,18 @@
+{
+    "name": "ExtensionForHelloWork",
+    "description": "MyFirstChromeExtension",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
