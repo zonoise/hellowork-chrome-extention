@@ -1,0 +1,95 @@
+
+/* 職種 */
+#ID_form_1 > table > tbody > tr.kyujin_head > td 
+{
+    padding: 0;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_head > td > div > div.flex > table > tbody > tr > td:nth-of-type(1) > strong
+{
+    font-weight: normal;
+}
+#ID_form_1 > table > tbody > tr.kyujin_head > td > div > div.flex > table > tbody > tr > td
+{
+    font-weight: bold;
+}
+
+/* 会社名 */
+.kyujin_body .left-side  table > tbody > tr:nth-child(2) > td:nth-child(2) > div
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_body > td
+{
+    padding: 0;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_body > td > div
+{
+    margin-bottom: 0;
+}
+
+/* 仕事の内容	小さく */
+/* 雇用形態	小さく */
+#ID_form_1 > table > tbody > tr.kyujin_body > td > div > div.left-side > table > tbody > tr > td:nth-of-type(2)
+{
+    font-size: 0.8rem;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_body > td > div > div.right-side > table > tbody > tr > td:nth-of-type(2)
+{
+    font-size: 0.8rem;
+}
+
+/* 求人情報テーブルのタイトル部分一番左の列 */
+#ID_form_1 > table > tbody > tr.kyujin_body > td > div > .left-side > table > tbody > tr > td:nth-of-type(1) 
+{
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_body > td > div > .right-side > table > tbody > tr > td:nth-of-type(1)
+{
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+/* 受付年月日 小さく　*/
+#ID_form_1 > table > tbody > tr:nth-child(2) > td ,
+#ID_form_1 > table > tbody > tr:nth-child(2) > td > div , 
+#ID_form_1 > table > tbody > tr:nth-child(2) > td > div >div
+{
+    font-size: 0.5rem;
+}
+
+/* こだわり */
+#ID_form_1 > table > tbody > tr:nth-child(4) > td{
+    padding: 0.2rem;
+}
+
+#ID_form_1 > table > tbody > tr:nth-child(4) > td > div > span
+{
+    font-size: 0.5rem;
+}
+
+/* 募集人数　小さく */
+#ID_form_1 > table > tbody > tr:nth-child(5) > td ,
+#ID_form_1 > table > tbody > tr:nth-child(5) > td > div ,
+#ID_form_1 > table > tbody > tr:nth-child(5) > td > div > div
+{
+    font-size: 0.5rem;
+}
+
+/* ボタンの入っているtd　padding削除*/
+#ID_form_1 > table > tbody > tr.kyujin_foot > td
+{
+    margin: 0;
+    padding: 0;
+}
+
+#ID_form_1 > table > tbody > tr.kyujin_foot > td > div.flex > .button.main {
+    margin: 0.1em;
+    padding: 0.1em;
+}
